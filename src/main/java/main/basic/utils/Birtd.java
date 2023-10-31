@@ -1,6 +1,6 @@
-package main.utils;
+package main.basic.utils;
 
-public class Parrot {
+public class Birtd {
     private String name;
 
     public String getName() {
@@ -10,10 +10,4 @@ public class Parrot {
     public void setName(String name) {
         this.name = name;
     }
-
-    @Override
-    public String toString() {
-        return "Parrot : " + name;
-    }
-
 }

@@ -1,7 +1,6 @@
-package main.config;
+package main.basic.config;
 
-import main.utils.Parrot;
-import main.utils.Person;
+import main.basic.utils.Parrot;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

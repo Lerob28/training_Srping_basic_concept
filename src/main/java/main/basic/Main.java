@@ -1,10 +1,10 @@
-package main;
+package main.basic;
 
-import main.config.projectConfig;
-import main.utils.Birtd;
-import main.utils.Monkey;
-import main.utils.Parrot;
-import main.utils.Person;
+import main.basic.config.projectConfig;
+import main.basic.utils.Birtd;
+import main.basic.utils.Monkey;
+import main.basic.utils.Parrot;
+import main.basic.utils.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.function.Supplier;
