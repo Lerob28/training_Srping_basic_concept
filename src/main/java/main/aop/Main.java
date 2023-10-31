@@ -21,12 +21,12 @@ public class Main {
         comment.setAuthor("Lerob28");
         comment.setText("some boring comment i want to make here ...");
 
-        String result = service.publishComment(comment);
+        //String result = service.publishComment(comment);
 
-        otherService.publishComment(comment);
-        otherService.editComment(comment);
+        //otherService.publishComment(comment);
+        //otherService.editComment(comment);
         otherService.deleteComment(comment);
 
-        logger.info(result);
+        //logger.info(result);
     }
 }

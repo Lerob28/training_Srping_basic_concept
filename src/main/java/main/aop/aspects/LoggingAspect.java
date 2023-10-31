@@ -6,6 +6,7 @@ import main.aop.utils.Tolog;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -15,6 +16,7 @@ import java.util.logging.Logger;
 
 @Component
 @Aspect
+@Order(2)
 public class LoggingAspect {
 
     private final Logger logger = Logger.getLogger(LoggingAspect.class.getName());
